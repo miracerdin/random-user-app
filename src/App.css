@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 550px;
+  height: 500px;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: rgba(9, 103, 245, 0.4) 5px 5px, rgba(9, 103, 245, 0.3) 10px 10px,
+    rgba(9, 103, 245, 0.2) 15px 15px, rgba(9, 103, 245, 0.1) 20px 20px,
+    rgba(9, 103, 245, 0.05) 25px 25px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(144, 191, 244, 1) 78%,
+    rgba(144, 218, 244, 1) 96%
+  );
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+h3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imageAndName {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin: 10px 40px 0px 60px;
+}
+.response p {
+  padding: 17px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  gap: 37px;
+  align-items: center;
+  justify-content: center;
+}
+.bottomAge p {
+  text-align: center;
+  margin-top: 20px;
+  gap: 17px;
+  font-size: 1.2rem;
+}
+button {
+  display: block;
+  margin: 2rem auto;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  background-color: #289fed;
+  transition: all 1s ease-in-out;
+}
+button:hover {
+  color: black;
+  background: beige;
+}
