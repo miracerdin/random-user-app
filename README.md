@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Click Here to See In Browser](https://random-user-app-ten.vercel.app/).
+This project was bootstrapped with [Click here to see the page](https://random-user-app-ten.vercel.app/).
 
 ## Available Scripts
 
